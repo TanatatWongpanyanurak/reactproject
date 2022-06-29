@@ -15,7 +15,7 @@ const Logo = () => {
       {
         isTH
         ?(<Text>ภาษาไทย</Text>)
-        :(<Text>English</Text>)
+        :(<Text>ภาษาอังกฤษ</Text>)
       }
     </View>
   )
