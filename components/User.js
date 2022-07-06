@@ -11,7 +11,7 @@ const User = () => {
       <Text></Text>
       {
         users.map((user,index)=>{
-            return <Text  key={user.id}>{index+1}. {user.name}</Text>
+            return <Text color = "#7DC9D7" key={user.id}>{index+1}. {user.name}</Text>
         })
       }
     </View>
