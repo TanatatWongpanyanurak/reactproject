@@ -25,6 +25,7 @@ const ModelExample = () => {
         <Button
             title='Click To Open modal'
             onPress={()=> setShowModal(!showModal)}
+            
         />
     </View>
     </SafeAreaView>
